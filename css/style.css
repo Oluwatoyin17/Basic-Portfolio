@@ -85,7 +85,7 @@ h3{
     background:white;
     float: left;
     width: 650px;
-    height:400px;
+    height:100%;
 }
 .side-col {
     margin:60px;
@@ -151,5 +151,6 @@ footer {
     text-align: center;
     width:100%;
     border-top: 10px solid teal;
+    position: fixed;
+    bottom:0px;
   }
-  
