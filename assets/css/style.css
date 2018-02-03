@@ -96,6 +96,53 @@ h3{
     width: 270px;
     position: relative;
 }
+.column{
+    position:relative;
+    top: 0;
+    bottom:0;
+    float:left;
+}
+.column img{
+width: 200px;
+margin:10px;
+height:200px;
+}
+
+.desc{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, 250%);
+    color: white;
+    border: 0px solid black;
+    width:200px;
+    text-align: center;
+    background-color: teal;
+    padding-bottom:4px;
+    padding-top:5px;
+}
+form{
+    margin:20px;
+    width:100%;
+    
+}
+#name{
+    width:605px;
+    height:20px;
+}
+#email{
+    width:605px;
+    height:20px;
+}
+#message{
+    width:605px;
+    height:100px;
+}
+.button{
+    background-color: teal;
+    width:80px;
+    height:30px;
+}
 footer {
     height: 20px;
     clear: both;
